@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<!-- 
+
+Author : Himanshu Kumawat
+NetId  : Hk1953
+Sub    : Information Visualization
+Session: Fall 2016 
+
+-->
+
+<html>
+
+<head>
+  <script type = "text/javascript" src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	 
+  <script type="text/javascript" language="javascript">
+ 
+  function getCountry()
+   {
+    $.getJSON('https://raw.githubusercontent.com/CristianFelix/infoviz/master/gapminder.json',function(data)
+     {
+      for (var each = 0; each<data.length; each++)
+        {
+         document.getElementById('data').insertRow(-1).innerHTML = data[each].name;
+        }
+     });
+   } 
+
+  </script>
+
+<style>
+
+ header{
+	padding: 0.1em;
+	color: white;
+	background-color: black;
+	clear: left;
+       }
+
+</style>
+
+</head>
+
+<body onload="getCountry()">
+
+  <header><h1>Gapminder - Wealth and Health of Nations</h1></header>
+  <h1>Countries</h1>
+  <p> </p><hr>
+  
+    <table id="data">
+    </table>
+
+</body>
+</html>
