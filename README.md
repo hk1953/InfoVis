@@ -12,9 +12,8 @@ Hai Lan,
 Aayushi Acharya,
 Himanshu Kumawat
 
-
+<br/>
 **Problem**
-
 
 Our project aims to help taxi drivers in New York City to easily find the “target spots” they want to pick up passengers.
  
@@ -29,17 +28,16 @@ Therefore, developing an effective visual analytic tool to interactively mine an
 with their own needs will be helpful for them to work more efficiency. On the other hand, it can also optimize passengers’
 satisfactory as well because no passenger prefer to wait a super long time until get a taxi.
 
-
-**Data**
 <br/>
+**Data**
+
 Our dataset are yellow cab records that provided by NYC Taxi & Limousine Commission. The first week of April 2016 data will
 be used in this project.  Besides, shape-files of Manhattan in building blocks scale and neighborhood scale will be used as
 well.
 
-
+<br/>
 **Questions**
 
-<br/>
 **Where is the highest taxi demanding area in Manhattan in different time intervals?**
 
 Taxi demanding will change at different place at different time. For example in rush hour, it is possible that more potential
@@ -60,7 +58,6 @@ and time, people prefer to pay higher tips.
 Sometimes, drivers prefer to get cash directly to avoid withdraw from ATM again. Sometimes, they just prefer to get money
 with credit cards for some safety reasons. By analyzing the credit card/cash ratio in spatial-temporal can help to find the
 place that fit for those drivers’ need.
-
 
 <br/>
 **Project Website - [GitHub Pages](https://hk1953.github.io/)**
