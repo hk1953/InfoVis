@@ -1,15 +1,15 @@
 
-<center> # Information Visualization </center> 
+<p style="text-align: center;"> <h1>Information Visualization </h1> 
 
-<center>  ## Visualizing Taxi Demand patterns in NYC </center> 
+## Visualizing Taxi Demand patterns in NYC
 
 
-<center> ###### PROPOSAL
+###### PROPOSAL
 by
 Heejong Kim
 Hai Lan
 Aayushi Acharya
-Himanshu Kumawat </center> 
+Himanshu Kumawat
 
 
 ###### Problem
