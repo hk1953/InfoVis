@@ -15,18 +15,13 @@ Himanshu Kumawat
 <br/>
 **Problem**
 
-Our project aims to help taxi drivers in New York City to easily find the “target spots” they want to pick up passengers.
+This project aims to help taxi drivers in New York City to easily find the “target spots” they want to pick up passengers.
  
-Taxi drivers, especially in crowded city like New York, are facing intense competition every day. Every taxi drivers are
-hoping to minimize the empty-load time during their work hours and also, get more money earned. Fortunately, NYC Taxi and
-Limousine Commission (TLC) provide records of all historical taxi data in past few years. With those data, taxi drivers no
-longer need to find passengers in blind. However, simply show those data to taxi drivers directly is not a wise way because
-those data is complex to analyze and it is difficult for drivers to find their interested information from those data
+Taxi drivers, especially in crowded city like New York, are facing intense competition every day. Every taxi driver
+hopes to minimize the empty-load time during their work hours and also, get more tips. NYC Taxi and Limousine Commission (TLC) provide records of all taxi rides in past few years. With this data, taxi drivers no longer need to find passengers in blind. The data is complex to analyze and it is difficult for drivers to find their interested information from this data
 directly.
  
-Therefore, developing an effective visual analytic tool to interactively mine and visualize those data to those taxi drivers
-with their own needs will be helpful for them to work more efficiency. On the other hand, it can also optimize passengers’
-satisfactory as well because no passenger prefer to wait a super long time until get a taxi.
+Therefore, developing an effective visual analytic tool to interactively mine and visualize the data will be helpful for them to work more efficiency. On the other hand, it can also optimize passengers satisfaction.
 
 <br/>
 **Data**
@@ -61,4 +56,6 @@ place that fit for those drivers’ need.
 
 <br/>
 **Project Website - [GitHub Pages](https://hk1953.github.io/)**
+
+(The above Link does not render the project as Github does not support Git LFS, you can clone the repo and run a localhost to run the project.)
 
